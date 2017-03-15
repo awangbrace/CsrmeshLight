@@ -63,6 +63,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".newUI.GroupAssignActivity" />
+        <activity
+            android:name=".newUI.Main2Activity"
+            android:label="@string/title_activity_main2"></activity>
     </application>
 
 </manifest>
