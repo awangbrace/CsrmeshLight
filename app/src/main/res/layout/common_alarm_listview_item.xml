@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/alarm_listview_item_hight_70"
+    android:background="@drawable/listview_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgAlarmIcon"
+        android:layout_width="@dimen/common_smart_device_margin_size"
+        android:layout_height="@dimen/common_smart_device_margin_size"
+        android:layout_margin="15dp"
+        android:layout_marginStart="@dimen/common_listview_item_margin_right_or_left"
+        android:src="@drawable/nav_clock_press" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <com.csr.csrmeshdemo.view.AlwaysMarqueeTextView
+            android:id="@+id/tvAlarmName"
+            style="@style/setting_listview_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tvAlarmTime"
+            style="@style/setting_listview_bottom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tvAlarmWeekday"
+            style="@style/setting_listview_bottom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/switch_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/common_listview_item_margin_right_or_left"
+        android:button="@drawable/switch_selector"
+        android:visibility="visible"
+        android:focusable="false" />
+
+    <LinearLayout 
+        android:id="@+id/delete_lay"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:visibility="gone"
+        >
+        
+    <ImageView
+        android:id="@+id/img_alarm_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_clock"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

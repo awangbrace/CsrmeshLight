@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_time"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:background="@color/setting_listview_not_setlect"
+        android:layout_marginTop="100dp">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="30dp"-->
+            <!--android:paddingRight="30dp" ></LinearLayout>-->
+
+
+        <com.csr.csrmeshdemo.view.wheelView.WheelView
+            android:id="@+id/mode_wheelview"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1.0"
+            android:paddingEnd="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+
+                android:background="#000000" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@id/view2"
+                android:layout_marginTop="30dp"
+                android:background="#000000" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!--<SeekBar-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/seekBar_speed"-->
+        <!--android:max="254"-->
+        <!--android:progress="10"-->
+        <!--android:layout_marginTop="@dimen/match_top_30dp"/>-->
+
+    <SeekBar
+        android:id="@+id/seekBar_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:max="254"
+        android:maxHeight="1.3dp"
+        android:layout_weight="1"
+        android:progress="10"
+        android:progressDrawable="@drawable/bg_bar"
+        android:thumb="@drawable/level_btn" />
+
+</LinearLayout>

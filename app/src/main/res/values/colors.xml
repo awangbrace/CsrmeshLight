@@ -1,0 +1,56 @@
+<resources>
+
+    <color name="default_background_color">#404040</color>
+    <color name="background">#40000000</color>
+    <color name="associate_row_background">#e0ffff</color>
+    <color name="associate_rssi">#101010</color>
+    <color name="associate_uuid">@android:color/black</color>
+    <color name="status">#ffaaaaaa</color>
+    <color name="rssi">#ffaaaaaa</color>
+    <color name="device_name">@android:color/white</color>
+    <color name="selected_color">#99ccff</color>
+    <color name="button_color">#AAAAAA</color>
+    <color name="black">#000</color>
+    <color name="blue">#00f</color>
+    <color name="red">#f00</color>
+    <color name="button_pressed">#0001ee</color>
+
+    <color name="bottom_bar_text_normal_color">#acacac</color>
+    <color name="bottom_bar_text_select_color">#48bbfc</color>
+    <color name="bottom_bar_background_color">#ffffff</color>
+    <color name="title_bar_background_color">#48bbfc</color>
+    <color name="gray_white">#ebebeb</color>
+
+    <!-- 点击字体颜色变形的 -->
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#cc000000</drawable>
+    <color name="black_70_translate">#B3000000</color>
+    <color name="title_bar_Color">#48bbfc</color>
+    <color name="black_60_translate">#99000000</color>
+    <color name="loading_bg_color">#e51c1c1c</color>
+    <color name="setting_background">#f7f7f7</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="setting_listview_text_background">#cc000000</color>
+    <color name="setting_listview_setlect">#e5fafa</color>
+    <color name="setting_listview_not_setlect">#ffffff</color>
+    <color name="setting_listview_divice_color">#cccccc</color>
+    <color name="setting_listview_hint_color">#ff0000</color>
+    <color name="black_40_translate">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+    <drawable name="main_background">#f5f5fc</drawable>
+    <drawable name="progress_gray">#bababa</drawable>
+    <drawable name="air_temperature_cool">#48bbfc</drawable>
+
+    <drawable name="bottom_bg_h">#2bb2ff</drawable>
+    <drawable name="portal_navigation_1bottom">#ffffff</drawable>
+
+    <color name="warm_while_solid_normal">#0d48bbfc</color>
+    <color name="warm_while_solid_select">#3048bbfc</color>
+    <color name="warm_while_color_1">#fefcec</color>
+    <color name="warm_while_color_2">#fdce8a</color>
+    <color name="warm_while_color_3">#fff6b6</color>
+    <color name="warm_while_color_4">#faffaf</color>
+    <color name="menu_text_color">#ccffffff</color>
+
+</resources>

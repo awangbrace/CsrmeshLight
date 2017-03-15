@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_w_press"
+    android:gravity="center"
+    android:padding="@dimen/custom_pad_20dp">
+
+    <TextView
+        android:id="@+id/title_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/custom_margin_10dp"
+        android:layout_marginLeft="@dimen/custom_margin_10dp"
+        android:layout_marginRight="@dimen/custom_margin_10dp"
+        android:text=""
+        android:textColor="@color/black_70_translate"
+        android:gravity="center"
+        android:textSize="@dimen/custom_txtsize_16sp"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_dialog"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/custom_margin_16dp"
+        android:weightSum="2" >
+
+        <Button
+                android:id="@+id/cancel"
+                style="@style/Dialog_button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dialog_button_margin"
+                android:padding="@dimen/custom_pad_10dp"
+                android:textSize="@dimen/custom_txtsize_14sp"
+                android:textColor="@color/black_70_translate"
+                android:layout_weight="1"
+                android:text="@string/cancle" />
+
+        <Button
+                android:id="@+id/sure"
+                style="@style/Dialog_button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dialog_button_margin"
+                android:padding="@dimen/custom_pad_10dp"
+                android:textSize="@dimen/custom_txtsize_14sp"
+                android:textColor="@color/black_70_translate"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+    </LinearLayout>
+
+</RelativeLayout>

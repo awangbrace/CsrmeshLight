@@ -1,0 +1,65 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="LoginFormContainer" >
+        <item name="android:layout_width">
+		match_parent
+        </item>
+        <item name="android:layout_height">
+		wrap_content
+        </item>
+        <item name="android:padding">
+		10dp
+        </item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Dialog_button_style">
+        <item name="android:background">@drawable/button_selector_dialog</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/button_selector_text_color</item>
+    </style>
+
+    <style name="setting_listview_top_text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/setting_listview_text_background</item>
+    </style>
+
+    <style name="setting_listview_style">
+        <item name="android:background">@color/setting_listview_not_setlect</item>
+        <item name="android:divider">@color/setting_listview_divice_color</item>
+        <item name="android:dividerHeight">@dimen/setting_listview_divice_hight</item>
+        <item name="android:listSelector">@drawable/listview_selector</item>
+    </style>
+
+    <style name="setting_listview_bottom_text">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/setting_listview_text_background</item>
+    </style>
+    
+</resources>

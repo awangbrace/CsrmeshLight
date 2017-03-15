@@ -1,0 +1,97 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/network_association"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+	 android:background="@drawable/main_background"
+    >
+
+        <LinearLayout style="@style/LoginFormContainer"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+			android:background="@drawable/edittext_borde"
+			android:layout_marginTop="20dp">
+
+            <EditText
+                    android:id="@+id/network_pass"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+					android:background="@color/transparent" />
+                    <!--android:imeActionLabel="OK"-->
+                    <!--android:imeActionId="@+id/login"-->
+                    <!--android:imeOptions="actionUnspecified"-->
+			/>
+
+			<RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="10dp"
+              android:orientation="horizontal"
+				android:visibility="gone">
+
+    		<TextView
+	            android:id="@+id/label"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="17sp"
+	            android:layout_gravity="left|center_vertical|center_horizontal"
+	            android:text="@string/authorise"/>
+
+    		<CheckBox
+            	android:id="@+id/checkbox"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:enabled="true"
+            	android:text=""
+            	android:focusable="false"
+            	android:layout_alignParentRight="true"/>
+    		
+           </RelativeLayout>
+           
+			<LinearLayout 
+			    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+				android:visibility="gone">
+			    <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="17sp"
+		            android:layout_gravity="left|center_vertical|center_horizontal"
+		            android:text="@string/ttl"/>
+			    
+			    <EditText
+                    android:id="@+id/ttl"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:imeActionLabel="OK"
+                    android:imeOptions="actionUnspecified" />
+			    
+			</LinearLayout>
+           
+			<LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                <Button android:id="@+id/network_assocoiation_ok"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ok"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+					android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+
+</LinearLayout>

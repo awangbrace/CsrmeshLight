@@ -1,0 +1,68 @@
+<resources>
+
+    <string-array name="screen_names">
+        <item>Light Control</item>
+        <item>Temperature Control</item>
+        <item>Device Association</item>
+        <item>Configuration</item>
+        <item>Security Settings</item>
+        <item>About</item>
+        <item>TabMain</item>
+    </string-array>
+
+    <string-array name="battery_states">
+        <item>Battery is powering device</item>
+        <item>Battery is charging</item>
+        <item>Device is externally powered</item>
+        <item>Service is required for battery </item>
+        <item>Battery needs replacement</item>
+    </string-array>
+
+    <string-array name="custom_mode">
+        <item>烛光</item>
+        <item>睡眠</item>
+        <item>摇一摇</item>
+        <item>瑜伽</item>
+        <item>手电灯</item>
+        <item>小夜灯</item>
+        <item>浪漫</item>
+        <item>浪迪厅</item>
+        <item>摇滚</item>
+        <item>读书</item>
+        <item>渐变</item>
+    </string-array>
+
+    <string-array name="WeekInfoArr">
+        <item>@string/alarm_repeat_mon</item>
+        <item>@string/alarm_repeat_tue</item>
+        <item>@string/alarm_repeat_wed</item>
+        <item>@string/alarm_repeat_thu</item>
+        <item>@string/alarm_repeat_fri</item>
+        <item>@string/alarm_repeat_sat</item>
+        <item>@string/alarm_repeat_sun</item>
+    </string-array>
+    <string-array name="alarm_menu_array">
+        <item>@string/alarm_repeat</item>
+        <item>@string/alarm_snooze</item>
+    </string-array>
+
+    <string-array name="RepeatInfoArr">
+        <item>@string/alarm_repeat_every_monday</item>
+        <item>@string/alarm_repeat_every_tuesday</item>
+        <item>@string/alarm_repeat_every_wednesday</item>
+        <item>@string/alarm_repeat_every_thursday</item>
+        <item>@string/alarm_repeat_every_friday</item>
+        <item>@string/alarm_repeat_every_saturday</item>
+        <item>@string/alarm_repeat_every_sunday</item>
+    </string-array>
+    <string-array name="GradienrArr">
+        <item>@string/Colorful_Radient</item>
+        <item>@string/Red_Radient</item>
+        <item>@string/Green_Radient</item>
+        <item>@string/Blue_Radient</item>
+        <item>@string/Purple_Radient</item>
+        <item>@string/Yelow_Radient</item>
+        <item>@string/Cyan_Radient</item>
+    </string-array>
+
+</resources>

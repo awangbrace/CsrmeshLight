@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_w_press"
+    android:orientation="vertical"
+    android:padding="@dimen/rename_pad_20dp" >
+
+
+        <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/rename_margin_10dp"
+        android:layout_marginRight="@dimen/rename_margin_10dp"
+        android:textSize="@dimen/rename_txtsize_16sp"
+        android:textColor="@color/black_70_translate"
+        android:text=""
+        />
+
+        <EditText
+            android:id="@+id/editRename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_edittext_selecter"
+            android:ems="10"
+            android:layout_marginTop="@dimen/rename_margin_10dp"
+            android:layout_marginLeft="@dimen/rename_margin_5dp"
+            android:layout_marginRight="@dimen/rename_margin_5dp"
+            android:paddingTop="@dimen/rename_margin_10dp"
+            android:paddingBottom="@dimen/rename_margin_10dp"
+            android:layout_below="@+id/title"
+            android:textSize="@dimen/rename_txtsize_14sp"
+            android:maxLength="20"
+            android:textColor="@color/black_70_translate"
+            android:singleLine="true" 
+            android:hint="">
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/rename_margin_16dp"
+            android:layout_below="@+id/editRename"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/negativeButton"
+                style="@style/Dialog_button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dialog_button_margin"
+                android:layout_weight="1"
+                android:padding="@dimen/rename_pad_10dp"
+                android:textSize="@dimen/rename_txtsize_14sp"
+                android:textColor="@color/black_70_translate"
+                android:text="@string/cancle" />
+
+            <Button
+                android:id="@+id/positiveButton"
+                style="@style/Dialog_button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dialog_button_margin"
+                android:layout_weight="1"
+                android:textSize="@dimen/rename_txtsize_14sp"
+                android:padding="@dimen/rename_pad_10dp"
+                android:textColor="@drawable/seventyy_color_selector"
+                android:text="@string/ok" />
+        </LinearLayout>
+
+</RelativeLayout>

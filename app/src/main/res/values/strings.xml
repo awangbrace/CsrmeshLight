@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CSRmesh</string>
+    <string name="scan_connect">Scan and Connect</string>
+    <string name="qr_code">QR Code</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="add_group">Add Group</string>
+    <string name="add_device">Add Device</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_info">Firmware Info</string>
+    <string name="menu_models_supported">Models supported</string>
+    <string name="menu_get_data">Request Data</string>
+    <string name="menu_device_info">Device info</string>
+    <string name="network_phrase">Enter password</string>
+    <string name="authorise">Authorise Devices</string>
+    <string name="ttl">Time to live (TTL):</string>
+    <string name="key_required">Enter a network phrase and press OK to continue</string>
+    <string name="unknown">unknown</string>
+    <string name="associating">Associating device</string>
+    <string name="association_fail">Device association failed</string>
+    <string name="short_code_prompt">Enter short code</string>
+    <string name="short_code_match_fail">Short code doesn\'t match UUID</string>
+    <string name="shortcode_invalid">Invalid short code</string>
+    <string name="enter_new_name">Enter new name</string>
+    <string name="group_update">Sending group update</string>
+    <string name="confirm_remove">Remove device. Are you sure?</string>
+    <string name="confirm_remove_local">Confirmation from device was not seen. Remove device locally anyway?</string>
+    <string name="removing">Removing device</string>
+    <string name="getting_data">Getting data...</string>
+    <string name="enter_group_name">Enter name for group</string>
+    <string name="waiting_for_response">Waiting for response</string>
+    <string name="firmware_version_is">Firmware version is</string>
+    <string name="firmware_get_fail">Failed to get firmware version</string>
+    <string name="configuration_get_fail">Failed to get configuration info</string>
+    <string name="bluetooth_not_enabled">Bluetooth not enabled</string>
+    <string name="bluetooth_enabled">Bluetooth enabled</string>
+    <string name="bluetooth_disabled">Bluetooth disabled</string>
+    <string name="connecting">Connecting…</string>
+    <string name="all_lights">All lights</string>
+    <string name="group">Group</string>
+    <string name="groups">groups</string>
+    <string name="disconnected">Disconnected from bridge device</string>
+    <string name="light">Light</string>
+    <string name="switch_">Switch</string>
+    <string name="sensor">Sensor</string>
+    <string name="actuator">Actuator</string>
+    <string name="group_update_ok">Groups updated OK</string>
+    <string name="group_update_with_problems">Groups updated with some problems.</string>
+    <string name="group_query_fail">Failed to query number of supported groups</string>
+    <string name="group_no_changes">No changes made, nothing sent</string>
+    <string name="group_max_fail">Group update FAILED. Device supports maximum of</string>
+    <string name="group_timeout">Group update FAILED: timed out waiting for response from device.</string>
+    <string name="connect_faiL">Failed to connect</string>
+    <string name="added">added</string>
+    <string name="qr_to_uuid_fail">Failed to read UUID from QR code</string>
+    <string name="bridge_device">Connected Bridge Device</string>
+    <string name="not_support_any_model">No models supported</string>
+    <string name="share_config">Share configuration</string>
+    <string name="load_config">Load configuration</string>
+    <string name="request_config">Request configuration</string>
+    <string name="send_to">Send file to</string>
+    <string name="all_thermostats">All Thermostats</string>
+    <string name="desired_temperature">Desired temperature (°C)</string>
+    <string name="no_actuator_associated">There are no actuators associated. Please associate one first.</string>
+    <string name="association_notify">A device is currently being associated.</string>
+    <string name="tap_to_cancel_association">Tap here to cancel the association.</string>
+    <string name="association_progress">Association in progress: </string>
+    <string name="association_sort">Show closest devices first.</string>
+    <string name="association_cancelled">Association cancelled!</string>
+    <string name="association_failed">Association has failed!</string>
+    <string name="current_temperature">Current temperature (°C)</string>
+    <string name="unknown_temperature_value">-</string>
+    <string name="desired_temperature_range_value" formatted="false">Desired temperature value must be between %s1 and %s2 degrees.</string>
+    <string name="wrong_desired_temperature_value">Desired temperature value must be a decimal number format</string>
+    <string name="type_temperature_desired">Type the temperature desired:</string>
+    <string name="user_action_req">A user action is required!</string>
+    <string name="need_device_group">A device needs to be grouped.</string>
+    <string name="error_opening_file">Error trying to open a file</string>
+    <string name="import_config_complete">Import configuration complete!</string>
+    <string name="import_config_error">Error importing configuration!</string>
+    <string name="share_configuration">I would like to share my mesh configuration with you.</string>
+    <string name="error_share_configuration">It wasn\'t possible to share the configuration.</string>
+    <string name="battery_level">Battery level</string>
+    <string name="battery_state">Battery state</string>
+    <string name="attraction_enabled">Attaction enabled for few seconds.</string>
+    <string name="invalid_file_extension">File extension not valid. Only json files are accepted.</string>
+    <string name="confirm_replacing_db">Your database will be overwritten and you will lose information about current devices. Do you want to continue?</string>
+    <string name="colour">彩色</string>
+    <string name="warm_white">暖白</string>
+    <string name="mode">模式</string>
+    <string name="microphone">麦克风</string>
+    <string name="music">音乐</string>
+    <string name="smart_alarm">智能闹钟</string>
+    <string name="alarm">闹钟</string>
+    <string name="setting_alarm_time">设定时间</string>
+    <string name="smart_alarm_add_alarm">添加闹钟</string>
+    <string name="alarm_repeat_every_monday">每周一</string>
+    <string name="alarm_repeat_every_tuesday">每周二</string>
+    <string name="alarm_repeat_every_wednesday">每周三</string>
+    <string name="alarm_repeat_every_thursday">每周四</string>
+    <string name="alarm_repeat_every_friday">每周五</string>
+    <string name="alarm_repeat_every_saturday">每周六</string>
+    <string name="alarm_repeat_every_sunday">每周日</string>
+    <string name="alarm_repeat_mon">周一</string>
+    <string name="alarm_repeat_tue">周二</string>
+    <string name="alarm_repeat_wed">周三</string>
+    <string name="alarm_repeat_thu">周四</string>
+    <string name="alarm_repeat_fri">周五</string>
+    <string name="alarm_repeat_sat">周六</string>
+    <string name="alarm_repeat_sun">周日</string>
+    <string name="alarm_repeat_once">一次</string>
+    <string name="alarm_repeat_Never">关</string>
+    <string name="alarm_repeat_weekday">工作日</string>
+    <string name="alarm_repeat_weekend">周末</string>
+    <string name="alarm_repeat_everyday">每天</string>
+    <string name="alarm_repeat">重复</string>
+    <string name="alarm_action">执行动作</string>
+    <string name="alarm_snooze">贪睡</string>
+    <string name="text_length_alread_max">输入字数已达上限</string>
+    <string name="delete_sure">确定删除</string>
+    <string name="if_sure">吗?</string>
+    <string name="cancle">取消</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="alarm_prompt">闹钟数量已达上限</string>
+    <string name="samrt_click_prompt">赶紧添加场景吧!</string>
+    <string name="samrt_control_tist">例如添加空调场景,可以让你家的空调</string>
+    <string name="samrt_control_tips">在温度升高时自动打开,维持舒适的温度</string>
+    <string name="samrt_time_tips">可以让你家的空调在早上8点自动</string>
+    <string name="samrt_time_tist">打开到26度,维持家中舒适温度</string>
+    <string name="samrt_colck_tips">设置一个小雷达闹钟，</string>
+    <string name="samrt_clock_tist">就可以用手势关闭闹钟啦。</string>
+    <string name="name_for_alarm">闹钟名称</string>
+    <string name="giveup">放弃</string>
+    <string name="finish_tips">是否要放弃您所做的更改?</string>
+    <string name="shake">摇一摇</string>
+    <string name="please_shake_you_phone">请拿起手机摇一摇</string>
+    <string name="surprise_will_happend">会有惊喜哦！</string>
+    <string name="device_manger">设备管理</string>
+    <string name="device_list">设备列表</string>
+
+    <string name="Colorful_Radient">七彩渐变</string>
+    <string name="Red_Radient">红色渐变</string>
+    <string name="Green_Radient">绿色渐变</string>
+    <string name="Blue_Radient">蓝色渐变</string>
+    <string name="Purple_Radient">紫色渐变</string>
+    <string name="Yelow_Radient">黄色渐变</string>
+    <string name="Cyan_Radient">青色渐变</string>
+
+    <string name="Radient">渐变</string>
+    <string name="NEXT">下一步</string>
+    <string name="finish">完成</string>
+    <string name="setting_password">设置密码</string>
+    <string name="search_device">搜索设备</string>
+    <string name="group_manger">设备管理</string>
+    <string name="main_activity_exit"> 再按一次退出程序</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

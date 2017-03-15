@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/setting_background" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_rename_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_alarm_layout_hight_50"
+                android:background="@color/setting_listview_not_setlect"
+                android:gravity="center_vertical" >
+
+
+
+                <com.csr.csrmeshdemo.view.AlwaysMarqueeTextView
+                    android:id="@+id/tv_rename_alarm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/smart_alarm_add_alarm"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/setting_listview_text_background" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/setting_listview_item_margin_right"
+                    android:src="@drawable/icon_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/common_listview_title_hight"
+                    android:layout_marginStart="@dimen/setting_listview_item_margin_left"
+                    android:gravity="center"
+                    android:text="@string/setting_alarm_time" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_time"
+                android:layout_width="fill_parent"
+                android:layout_height="170dp"
+                android:background="@color/setting_listview_not_setlect" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp" >
+
+                    <com.csr.csrmeshdemo.view.wheelView.WheelView
+                        android:id="@+id/hour"
+                        android:layout_width="fill_parent"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1.0"
+                        android:paddingEnd="10dp" />
+
+                    <com.csr.csrmeshdemo.view.wheelView.WheelView
+                        android:id="@+id/minute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1.0"
+                        android:paddingStart="10dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+
+                        android:background="#000000" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/view2"
+                        android:layout_marginTop="30dp"
+                        android:background="#000000" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <com.csr.csrmeshdemo.view.InvalidListView
+                android:id="@+id/timing_lv_menu"
+                style="@style/setting_listview_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_listview_title_hight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

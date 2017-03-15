@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_add_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_alarm_layout_hight_50"
+        android:background="@color/white"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_add"
+            android:layout_marginStart="@dimen/common_listview_item_margin_right_or_left"
+            android:background="#f5f5fc"/>
+
+        <TextView
+            android:id="@+id/tv_add_alarm"
+            style="@style/setting_listview_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smart_alarm_add_alarm"
+            android:layout_marginStart="@dimen/common_listview_item_margin_left_icon" 
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/com_list_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <include layout="@layout/common_list_layout" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cool_time_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone">
+
+        <include layout="@layout/coolplay_time_control_layout" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cool_clock_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone">
+
+        <include layout="@layout/coolplay_clock_layout" />
+    </LinearLayout>
+
+</LinearLayout>
