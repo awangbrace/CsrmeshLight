@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CSRmeshDemo.iml" filepath="$PROJECT_DIR$/CSRmeshDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSRmeshLibrary/CSRmeshLibrary.iml" filepath="$PROJECT_DIR$/CSRmeshLibrary/CSRmeshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Csrmesh.iml" filepath="$PROJECT_DIR$/Csrmesh.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
